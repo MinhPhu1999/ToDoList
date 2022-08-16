@@ -1,0 +1,29 @@
+.hold__heading {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	color: #1d262c;
+	margin-top: 40px;
+}
+
+.empty-todolist {
+	font-size: 30px;
+	text-align: center;
+	font-weight: 600;
+}
+
+#myInput {
+	background-position: 10px 12px;
+	background-repeat: no-repeat;
+	width: 90%;
+	font-size: 16px;
+	padding: 12px 20px 12px 40px;
+	border: 1px solid #ddd;
+	margin-bottom: 12px;
+}
+
+#myInput:focus {
+	outline: none;
+}

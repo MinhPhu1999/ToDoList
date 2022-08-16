@@ -1,0 +1,39 @@
+.todo__heading {
+	display: flex;
+	align-items: center;
+	font-family: Poppins;
+}
+
+.todo__heading-title {
+	font-size: 36px;
+	display: flex;
+	margin: 0;
+	line-height: 54px;
+	font-weight: bold;
+}
+
+.todo__heading-task {
+	font-size: 36px;
+	margin: 0 8px;
+	font-weight: bold;
+	color: deeppink;
+}
+
+.todo__heading-add {
+	margin-left: 20px;
+	background: #884cb2;
+	border-radius: 10px;
+	width: 139px;
+	height: 34px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.todo__heading-add--btn {
+	background: none;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}

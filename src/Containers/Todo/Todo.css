@@ -1,0 +1,147 @@
+.todo {
+	margin: 0 200px 200px;
+}
+
+.todo__heading {
+	display: flex;
+	align-items: center;
+	font-family: Poppins;
+}
+
+.todo__heading-title {
+	font-size: 36px;
+	display: flex;
+	margin: 0;
+	line-height: 54px;
+	font-weight: bold;
+}
+
+.todo__heading-task {
+	font-size: 36px;
+	margin: 0 8px;
+	font-weight: bold;
+	color: deeppink;
+}
+
+.todo__heading-add {
+	margin-left: 20px;
+	background: #884cb2;
+	border-radius: 10px;
+	width: 139px;
+	height: 34px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.todo__heading-add--btn {
+	background: none;
+	color: #fff;
+	border: none;
+	margin-left: 6px;
+	cursor: pointer;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+	.todo {
+		margin: 0 130px 150px;
+	}
+
+	.todo__item-title {
+		font-size: 18px;
+	}
+
+	.todo__item-wrapper--status {
+		display: flex;
+		justify-content: center;
+	}
+
+	.todo__item-status {
+		padding: 8px;
+		width: 60%;
+	}
+
+	.todo__item-wrapper--priority {
+		width: 25%;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	.todo {
+		margin: 0 50px 200px;
+	}
+
+	.todo__item-wrapper--status {
+		display: flex;
+		justify-content: center;
+	}
+
+	.todo__item-status {
+		padding: 8px;
+		width: 60%;
+	}
+}
+
+@media (max-width: 768px) {
+	.header__left {
+		width: 70%;
+	}
+
+	.header__left-search {
+		width: 86%;
+	}
+
+	.header__right {
+		width: 30%;
+	}
+
+	.todo {
+		margin: 0 10px;
+	}
+
+	.todo__heading {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.todo__heading-title {
+		font-size: 30px;
+	}
+
+	.todo__heading-task {
+		font-size: 30px;
+	}
+
+	.todo__item-dot1 {
+		margin-right: 4px;
+	}
+
+	.todo__item-wrapper--title {
+		width: 60%;
+	}
+
+	.todo__item-wrapper--status {
+		width: 20%;
+	}
+
+	.todo__item-wrapper--priority {
+		width: 14%;
+	}
+
+	.todo__item-dropdown {
+		width: 6%;
+	}
+
+	.todo__item-status {
+		width: 80%;
+		padding: 4px;
+	}
+
+	.todo__item-title,
+	.todo__item-status,
+	.todo__item-priority {
+		font-size: 12px;
+	}
+}
